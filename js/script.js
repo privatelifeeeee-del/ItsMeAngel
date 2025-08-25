@@ -12,9 +12,9 @@ const itemMenuSub = document.querySelector('.item-menu-sub');
 
 // Teks yang akan diketik
 const teksUntukDiketik = [
-    "Seorang Desainer UI/UX",
-    "Seorang Pengembang Web", 
-    "Seorang Data Scientist"
+    "Get to know me!",
+    "Saya Angelica Barus", 
+    "Mahasiswa Ilmu komputer Universitas Negeri Medan"
 ];
 let indeksTeks = 0;
 let indeksKarakter = 0;
@@ -299,4 +299,5 @@ if (videoBackground) {
         console.log('Video siap diputar');
         playVideo();
     });
+
 }
